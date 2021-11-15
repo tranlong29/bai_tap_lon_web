@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #fff;
+    color: rgb(10, 10, 10);
+    
+}
+main{
+    height: 2500px;
+    width: 100%;
+}
+div.header-first{
+    width: 100%;
+    height: 100px;
+    background-color: #353535;
+}
+.box-head-box .img-click img{
+    width: 180px;
+    height: auto;
+    margin: 20px 40px;
+}
+.box-search-box{
+    width: 38%;
+    margin: -75px 460px;
+    height: auto;
+}
+#search-desktop{
+    width: 80%;
+    height: 40px;
+    border: 2px solid #c89979;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#search-desktop:focus, #search-desktop:active{
+    outline: #c89979;
+}
+.box-search-box .box-search{
+    width: 100%;
+    height: 30px;
+    background-color: #c89979;
+
+}
+.navigation-first .Sticky  li a.active{
+    background-color: #c89979;
+    color: #000;
+    text-decoration: underline;
+}
+.navigation-first ul li a:hover:not(.active) {
+    background-color: #c89979;
+    color: #353535;
+    border-radius: 5px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a i.fas{
+    display: flex;
+    margin-left: 380px;
+    margin-top: -35px;
+}
+.box-head-box .dangki{
+    width: 100px;
+    height: 40px;
+    background-color: #c89979;
+    margin: 42px 1150px;
+    border-radius: 5px;
+    text-align: center;
+}
+.box-head-box .dangki:hover{
+    background-color: #633b21;
+}
+.box-head-box .dangki-in{
+    width: 100%;
+    height: 40px;
+    padding-top: 8px;
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+
+.navigation-first ul{
+    list-style: none;
+    text-align: center;
+    background-color: #353535;
+}
+
+.navigation-first ul li{
+    display: inline-block;
+    margin: 12px 30px;
+    font-size: 25px;
+    
+}
+.navigation-first ul li a{
+    color: #ffffff;
+    padding: 12px 20px 13px;
+    border-radius: 5px;
+}
+.navigation-first ul li a:hover {
+    background-color: #c89979;
+    color: #353535;
+    border-radius: 5px;
+}
+.navigation-first{
+    position: absolute;
+    margin-top: 20px;
+}
+.navigation-first{
+    width: 100%;
+    z-index: 5;
+    height: 44px;
+    padding: 0;
+    margin: 0;
+}
+#slider{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background: url('./imges/anh-dong-ho-dep-55-1024x576.jpg') top center / cover no-repeat;
+    color: #ffffff;
+}
+.text-content{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    line-height: 30px;
+    margin-top: 200px;
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-content h3{ 
+    margin-bottom: 30px;
+}
+.text-content h1{
+    margin-bottom: 20px;
+}
+.text-content p{
+    margin-bottom: 20px;
+}
+.text-content a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border: 1px solid rgb(231, 227, 227);
+}
+.text-content a:hover{
+    background-color: rgb(196, 138, 117);
+    border: 1px solid #ffffff;
+}
+
+#content .content-section{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+#content .section-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+#content .section-slogan{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 25px;
+}
+#content .section-about{
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 20px;
+}
+#content .type-list{
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#content .type-list img{
+    width: 200px;
+    height: 200px;
+}
+
+#content .type-item{
+    float:left;
+    text-align: center;
+    margin-top: 30px;
+    width: 33.33%;
+    font-size: 20px;
+}
+#content .type-img{
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.best-seller{
+    height: 650px;
+}
+.ticket-list{
+    background-color: #fff;
+    margin-top: 40px;
+    color:#000;
+    text-align: justify;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+
+.ticket-list li{
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ccc;
+}
+.ticket-list .Sold-out{
+    background-color: rgb(207, 142, 142)!important;
+    padding: 4px;
+    margin-left: 16px;
+    color: #fff;
+
+}
+.ticket-list .quantity{
+    background-color: #000;
+    float: right;
+    width: 24px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+
+}
+.place-list{
+    margin-top: 32px;
+    width: 1000px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.place-item{
+    float: left;
+    width: 22%;
+    padding: 0 8px;
+    margin-left: 10px;
+    
+    
+}
+.place-img{
+    width: 100%;
+    display: block;
+    
+    
+}
+.place-img:hover{
+    opacity: 0.2;
+}
+.place-body{
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+    line-height: 25px;  
+}
+.place-item p{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-top: 1px solid;
+}
+.place-item .price{
+    color: #c89979;
+    font-size: 15px;
+    margin-bottom: 7px;
+    border-top: none;
+}
+.place-item .buy{
+    text-decoration: none;
+    color: #fff;
+    background-color: #c89979;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.place-item .buy:hover{
+    color: #000;
+    background-color: rgb(209, 118, 118);
+}
+article{
+    height: 650px;
+    width: 33.33%;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 20px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.w3-content{
+    margin-left: 70px;
+}
+.mySlides{
+    display: none;
+    margin-top: 20px;
+}
+article p{
+    color: #000;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+article p:hover{
+    color: #c89979;
+}
+.SMART{
+    margin-left: 40px;
+    text-align: center;
+}
+.mySlides1{
+    display: none;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.mySlides2{
+    display: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+.mail{
+    width: 100%;
+    height: 80px;
+}
+.mail .row li{
+    display: inline-block;
+}
+.mail .row .head_first{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.row .text_second{
+    margin-top: 10px;
+    margin-left: 420px;
+}
+#mail_text{
+    width: 400px;
+    height: 43px;
+    border: 2px solid #c89979;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#mail_text:focus, #mail_text:active{
+    outline: #c89979;
+}
+.row #fsubscribe{
+    background-color: #c89979;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.row #fsubscribe:hover{
+    background-color: #633b21;
+}
+.row #fsubscribe{
+    color: #ffffff;
+    font-size: 20px;
+}
+.information{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: #353535;
+    color: #ffffff;
+}
+.information_one{
+    width: 33.33%;
+    padding: 20px;
+}
+.information_one p,.information_two p,.information_three p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.information_two{
+    width: 33.33%;
+    padding: 20px 200px;
+    
+}
+.information_three{
+    width: 33.33%;
+    padding: 20px  10px;
+}
+.information_two p a,.information_three p a{
+    color: #ffffff;
+}
+.information_two p a:hover,.information_three p a:hover{
+    color: #c89979;
+}
+div.banquyen{
+    width: 100%;
+    height: 30px;
+    background-color:  #353535;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.postion-fixed{
+    position: fixed;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.icon{
+    float: right;
+    margin-top: 650px;
+    margin-right: 10px;
+}
+
+

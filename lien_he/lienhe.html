@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng Hồ Chính Hãng</title>
+    <link rel="stylesheet" href="lienhe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="header-first">
+                <div class="box-head-box">
+                    <div class="img-click">
+                        <a href=""><img src="../btl_trangchu/imges/logo-mona-2.png" alt=""></a>
+                    </div>
+                    <div class="box-search-box">
+                        <input id="search-desktop" type="text" name="q" autocapitalize="off" placeholder="Tìm kiếm..." value class="input-sreach">
+                        <a href=""><i class="fas fa-search" style="color: #c89979; font-size: 25px;"></i></a>
+                    </div>
+                    <div class="dangki">
+                        <a href="">
+                            <div class="dangki-in">Đăng Ký</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr style="font-size: 1px; color: darkgrey;">
+            <div class="header" id="myHeader">
+                <nav class="navigation-first">
+                    <ul class="Sticky">
+                        <li><a href="../btl_trangchu/trang_chu.html">Trang Chủ</a></li>
+                        <li><a href="../donghonam/dong_ho_nam.html">Đồng Hồ Nam</a></li>
+                        <li><a href="../donghonu/dong_ho_nu.html">Đồng Hồ Nữ</a></li>
+                        <li><a href="../BTL-Gthieu/gioithieu.html">Giới Thiệu</a></li>
+                        <li><a href="../lien_he/lienhe.html" class="active">Liên Hệ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14900.571542505182!2d105.69991259999999!3d20.986908749999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2ssg!4v1636401198656!5m2!1svi!2ssg" width="600" height="450" style="border:0;"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="form">
+                    <form action="">
+                        <div class="form1">
+                            <ul>
+                                <li><input type="text" placeholder="Họ và tên"></li>
+                                <li><input type="number" placeholder="Điện thoại"></li>
+                            </ul>
+                        </div>
+                        <div class="form1">
+                            <ul>
+                                <li><input type="text" placeholder="Email"></li>
+                                <li><input type="text" placeholder="Địa chỉ"></li>
+                            </ul>
+                        </div>
+                        <div class="form2">
+                            <textarea name="Nội dung" id="contentt" cols="50" rows="10" placeholder="Nội dung"></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit" class="btn btn">Gửi liên hệ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <hr style="font-size: 1px; color: darkgrey;">
+        <footer class="footd">
+            <div class="mail">
+                <ul class="row mail_main">
+                    <li class="head_first">
+                        <h2>ĐĂNG KÝ NHẬN THÔNG TIN</h2>
+                    </li>
+                    <li class="text_second">
+                        <form action="" onsubmit="return valicheck()">
+                            <input id="mail_text" type="email" name="email" autocapitalize="off" placeholder="Nhập email..."
+                                    value class="input_email">
+                            <button type="submit" value="Submit" id="fsubscribe">Đăng Ký</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="information">
+                <div class="information_one">
+                    <h2>THÔNG TIN LIÊN HỆ</h2>
+                    <p><i class="fas fa-map-marked-alt"></i> 3 Cầu Giấy, Láng Thượng, Đống Đa, Hà Nội</p>
+                    <p><i class="fas fa-phone-square"></i> 0969863373</p>
+                    <p><i class="fas fa-envelope-square"></i> tranlong2002.tt@gmail.com<br>buiduynhat1910@gmail.com</p>
+                </div>
+                <div class="information_two">
+                    <h2>LIÊN KẾT</h2>
+                    <p><a href="../BTL-Gthieu/gioithieu.html">GIỚI THIỆU</a></p>
+                    <p><a href="../donghonam/dong_ho_nam.html">ĐỒNG HỒ NAM</a></p>
+                    <p><a href="../donghonu/dong_ho_nu.html">ĐỒNG HỒ NỮ</a></p>
+                    <p><a href="../lien_he/lienhe.html">LIÊN HỆ</a></p>
+                </div>
+                <div class="information_three">
+                    <h2>HỖ TRỢ</h2>
+                    <p><a href="">Hướng dẫn mua hàng</a></p>
+                    <p><a href="">Hướng dẫn thanh toán</a></p>
+                    <p><a href="">Chính sách bảo hành</a></p>
+                    <p><a href="">Chính sách đổi trả</a></p>
+                    <p><a href="">Tư vấn khách hàng</a></p>
+                </div>
+            </div>
+            <hr style="font-size: 1px; color: darkgrey;">
+            <div class="banquyen">
+                <p>© Bản quyền thuộc về . nhóm 5</p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    window.onscroll = function () { myFunction() };
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    console.log('sticky', sticky);
+    function myFunction() {
+        console.log('1')
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+    function valicheck(){
+        var email = document.getElementById("mail_text").value;
+        var aCong = email.indexOf("@");
+        var dauCham = email.lastIndexOf(".");
+        if (email == "") {
+        alert("Email không được để trống");
+        return false;
+        }
+        else if ((aCong<1) || (dauCham<aCong+2) || (dauCham+2>email.length)) {
+        alert("Email bạn điền không chính xác");
+        return false;
+        }
+        else{
+            alert('Nhập emali thành công.');
+            return true;
+        }
+        
+    }
+</script>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng Hồ Chính Hãng</title>
+    <link rel="stylesheet" href="form_Dk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<body>
+    <div>
+        <h1>Đăng Ký</h1>
+        <form action="" onsubmit="return validate()">
+            <label for="username">Uesrname:</label><br>
+            <input type="text" placeholder="Nhập tên tài khoản" name="userdname" id="username"><br><br>
+            <label for="fpassword">Password:</label><br>
+            <input type="password" placeholder="Mật khẩu" name="fpassword" id="fpassword"><br><br>
+            <label for="fpassword-repeat">Password-Repeat:</label><br>
+            <input type="password" placeholder="Nhập lại mật khẩu" name="fpassword-repeat" id="fpassword-repeat"><br><br>
+            <label for="fphone">Phone:</label><br>
+            <input type="phone" name="fphone" placeholder="Phone" id="fphone"><br><br>
+            
+            <button type="submit" class="submit" value="checked">Đăng Ký</button>
+        </form>
+    </div>
+   
+</body>
+<script>
+    
+    function validate(){
+        var x = document.getElementById("username").value;
+        var y = document.getElementById("fpassword").value;
+        var z = document.getElementById("fpassword-repeat").value;
+        var t = document.getElementById("fphone").value;
+        var flag = true;
+        if(x == '' || x.length < 5 || !/^[a-zA-Z0-9]+$/.test(x)){
+            flag = false;
+            alert('Vui lòng kiểm tra lại Username');
+            return;
+        }
+        if (y == '' || y.length < 8 || y != z){
+            flag = false;
+            alert('Vui lòng kiểm tra lại Password');
+            return;
+        }
+        if (t == '' &&  !/^[0-9]{10}$/.test(t)){
+            flag = false;
+            alert('Vui lòng kiểm tra lại Phone');
+            return;
+        }
+        location.href = "file://thiet ke web/bai_tap_lon/btl_trangchu/trang_chu.html";
+    }
+    
+</script>
+</html>
